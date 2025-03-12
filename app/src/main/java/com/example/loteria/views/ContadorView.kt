@@ -42,10 +42,5 @@ fun Contador(viewModel: ContadorViewModel){
                 tint = Color.Blue
             )
         }
-        Column (
-            modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.Center,
-
-        ){}
     }
 }

@@ -9,6 +9,6 @@ class LoteriaViewModel: ViewModel() {
     val lottoNumbers : State<List<Int>> = _lottoNumbers
 
     fun generateLottoNumbers(){
-        _lottoNumbers.value = (1..60).shuffled().take(6).sorted()
+        _lottoNumbers.value = (1..60).shuffled().take(6).sorted() // Se toman 6 numeros ordenados de manera aleatoria
     }
 }
